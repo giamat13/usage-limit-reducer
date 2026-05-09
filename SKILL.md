@@ -1,7 +1,4 @@
----
-name: usage-limit-reducer
-description: Use when the user is hitting Claude usage limits, burning through tokens fast, running a long conversation, or asks how to use Claude Code more efficiently. Triggers on phrases like "hit my limit", "running out of tokens", "usage limit", "save tokens", "reduce usage", "am I wasting tokens", "this chat is getting long", "which model should I use". Diagnoses the current session, runs a real token-usage report from local JSONL logs, and applies Dubi's 11 rules for reducing Claude usage.
----
+All text below will run from start to finish, or until the user requests to stop.
 
 # Usage Limit Reducer
 
